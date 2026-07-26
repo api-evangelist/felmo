@@ -1,8 +1,20 @@
 aid: felmo
 name: Felmo
-description: 'Felmo is a company surfaced as a portfolio company of hv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare; consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  felmo (felmo GmbH) is a mobile veterinary practice (mobile Tierarztpraxis)
+  headquartered in Berlin, Germany that brings licensed veterinarians directly to
+  pet owners' homes for dogs and cats. Founded in 2019 by CEO Philip Trockels, felmo
+  operates across Berlin, Hamburg, Munich, Cologne, Frankfurt, Stuttgart, Düsseldorf
+  and 25+ additional German cities, and has treated 300,000+ animals with 8,000+ home
+  visits per month via 140+ mobile vets. Services include preventive care and
+  consultations, examinations and diagnostics, laboratory and imaging, surgical
+  procedures (including a fully-equipped mobile operating vehicle / OP-Wagen), dental
+  medicine and holistic pet care, billed per the German veterinary fee schedule (GOT).
+  Customers book appointments, access medical records and lab results, receive
+  reminders, and message support through the felmo iOS and Android app. felmo is
+  backed by HV Capital and additional venture investors. No public developer API or
+  documentation surface was found during enrichment; this profile captures the
+  company's public identity and web properties.
 url: https://raw.githubusercontent.com/api-evangelist/felmo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +22,60 @@ x-backed-by:
 - hv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://felmo.de/asset/images/og.webp
 tags:
 - Company
-- Healthcare; Consumer
+- Healthcare
+- Veterinary
+- Consumer
+- Pet Care
+- Mobile Health
+- Germany
 apis: []
+common:
+- type: Website
+  url: https://felmo.de/
+- type: About
+  url: https://felmo.de/ueber-uns
+- type: Services
+  url: https://felmo.de/leistungen
+- type: Support
+  url: https://felmo.de/haeufige-fragen
+- type: TermsOfService
+  url: https://felmo.de/terms
+- type: PrivacyPolicy
+  url: https://felmo.de/dataprivacy
+- type: Imprint
+  url: https://felmo.de/imprint
+- type: Careers
+  url: https://felmo.de/jobs
+- type: LinkedIn
+  url: https://de.linkedin.com/company/felmo-gmbh
+- type: Facebook
+  url: https://www.facebook.com/felmo.de/
+- type: Instagram
+  url: https://www.instagram.com/felmogram/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
